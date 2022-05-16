@@ -896,7 +896,13 @@ color: #2B2B2B;
     /*display: none;*/
   }
 }
+.cd-primary-nav {
+  display: none;
+}
 
+.cd-primary-nav.nav-is-visible {
+  display: block;
+}
 .cd-primary-nav, .cd-primary-nav ul {
   position: fixed;
   padding: 0;
@@ -907,7 +913,7 @@ color: #2B2B2B;
   background: #ffffff;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
-  z-index: 1;
+  z-index:2;
   /* Force Hardware Acceleration in WebKit */
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
