@@ -907,7 +907,7 @@ color: #2B2B2B;
   background: #ffffff;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
-  z-index: 2;
+  z-index: 1;
   /* Force Hardware Acceleration in WebKit */
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
@@ -968,6 +968,9 @@ color: #2B2B2B;
   .nav-on-left .cd-primary-nav, .nav-on-left .cd-primary-nav ul {
     right: auto;
     left: 0;
+  }
+  .cd-primary-nav, .cd-primary-nav ul{
+    z-index: 2;
   }
 }
 @media only screen and (max-width: 1170px) {
