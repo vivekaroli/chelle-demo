@@ -4,7 +4,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Chelle</title>
-
 <link rel="stylesheet" href="assets/css/app.min.css" />
 <link rel="stylesheet" href="assets/slick/slick.css" />
 <link rel="stylesheet" href="assets/slick/slick-theme.css" />
@@ -149,7 +148,7 @@
       </form>
     </div>
     <main class="cd-main-content">
-<div class="hero-slider p-0">
+<div class="hero-slider p-0 hidden-xs">
   <div>
     <div class="overlay">
       <h2>Luxury <span class="d-block">Fashion</span><span class="d-block">& Accessories</span></h2>
@@ -171,6 +170,14 @@
       <button href="" target="_blank" class="button button--chelle button--size-s mt-3">Explore</button>
     </div>
     <img src="assets/images/slider_1.jpg" alt="slide" class="background-image"> </div>
+</div>
+<div class="hero-slider p-0 visible-xs">
+  <div>
+    <img src="assets/images/mobile-slider1.jpg" alt="slide" class="background-image"> </div>
+  <div>
+    <img src="assets/images/mobile-slider2.jpg" alt="slide" class="background-image"> </div>
+  <div>
+    <img src="assets/images/mobile-slider3.jpg" alt="slide" class="background-image"> </div>
 </div>
 <section class="section1 section prodpush-carousel__wrapper">
   <div class="style-header">
@@ -306,7 +313,7 @@
   </div>
 </section>
 <!-- categories -->
-<section class="section4 pb-5">
+<!--<section class="section4 pb-5">
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
@@ -329,8 +336,8 @@
       </div>
     </div>
   </div>
-</section>
-<section class="section5 prodpush-carousel__wrapper py-5">
+</section>-->
+<!--<section class="section5 prodpush-carousel__wrapper py-5">
   <div class="latest-collections bg-white mb-lg-5">
     <div class="container">
       <div class="row g-4 align-items-center">
@@ -357,7 +364,7 @@
       </div>
     </div>
   </div>
-</section>
+</section>-->
 <section class="section6" id="home-video-area"> 
   <!-- video background -->
   <div class="header-video-bg">
@@ -638,6 +645,12 @@ $('.hero-slider').slick({
   #home-video-area .desktop{
     display: none;
   }
+  .visible-xs{
+    display:block;
+  }
+  .hidden-xs{
+    display:none;
+  }
   }
   @media only screen and (min-width:768px) {
     #home-video-area .mobile{
@@ -645,6 +658,12 @@ $('.hero-slider').slick({
   }
   #home-video-area .desktop{
     display: block;
+  }
+  .visible-xs{
+    display:none;
+  }
+  .hidden-xs{
+    display:block;
   }
   }
 
