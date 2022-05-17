@@ -359,8 +359,20 @@ padding-left: 0;
 	width: 100%
 }
 .style-header .title {
-	font-size: 32px;
+	font-size: 22px;
 	letter-spacing: 0px;	
+}
+.section9 .style-header .sub{
+  font-size: 18px;
+  line-height: 32px;
+}
+.section.chelle-footer h5, .section.chelle-footer .accordion-button{
+  font-size:24px;
+  line-height: 23px;
+  color: #fff !important;
+}
+.section.chelle-footer .btn-soft-light {
+  color: #fff !important;
 }
 .prodpush-carousel__title, .prodpush-carousel__title h2, .blog__wrapper h2 {
 	font-size: 28px;	
