@@ -465,7 +465,7 @@ padding-left: 0;
   .hero-slider .slick-slide .overlay {
     width: 80%;
     left: 50% !important;
-    top: 90% !important;
+    top: 85% !important;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -474,6 +474,8 @@ padding-left: 0;
   .overlay .button.button--chelle{
     background: #fff;
     width:100%;
+    padding: 12px;
+    font-size: 18px;
   }
 .hero-slider .slick-slide .overlay h2 {
     font-size: 32px !important;
