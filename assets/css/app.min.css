@@ -453,11 +453,15 @@ padding-left: 0;
   .hero-slider .slick-slide .overlay {
     width: 80%;
     left: 50% !important;
-    top: 50% !important;
+    top: 90% !important;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    text-align: left;
+    text-align: center;
+  }
+  .overlay .button.button--chelle{
+    background: #fff;
+    width:100%;
   }
 .hero-slider .slick-slide .overlay h2 {
     font-size: 32px !important;
@@ -591,7 +595,7 @@ color: #2B2B2B;
 
 .cd-main-header {
   height: 50px;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.8);
   position: fixed;
   z-index: 3;
 }
