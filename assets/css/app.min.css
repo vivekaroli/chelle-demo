@@ -609,7 +609,7 @@ color: #2B2B2B;
 
 .cd-main-header {
   height: 50px;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 1);
   position: fixed;
   z-index: 3;
 }
