@@ -10,7 +10,8 @@ body {
 }
 #wrapper {
   position: relative;
-  overflow: hidden
+  overflow: hidden;
+  padding-top:80px;
 }
 #wrapper #product-page-two {
   box-sizing: border-box
@@ -1217,7 +1218,8 @@ body {
   margin-right: 5px
 }
 #product-page-two .product-grid .product-buybox-with-right .product-details .productView-button .d-flex {
-  margin-bottom: 1.5rem
+  margin-bottom: 1.5rem;
+  display: block !important;
 }
 #product-page-two .product-grid .product-buybox-with-right .product-details .productView-button .button-bottom {
   margin-top: 1rem;
