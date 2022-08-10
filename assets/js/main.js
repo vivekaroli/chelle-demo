@@ -179,6 +179,6 @@ $('.gallery-parent').each(function () {
 }
   // activation zoom plugin
   if($('.easyzoom')){
- // let $easyzoom = $('.easyzoom').easyZoom();
+  let $easyzoom = $('.easyzoom').easyZoom();
   }
   
